@@ -6,9 +6,11 @@ import 'package:toktik/infraestructure/repositories/video_posts_repository_impl.
 import 'package:toktik/presentation/providers/discover_provider.dart';
 import 'package:toktik/presentation/screens/discover_screen.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     
